@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1EMYW6N1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H1EMYW6N1Q');
+</script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+    background-image: url("images/backlav.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+  }
+        body {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E6E6FA;
+    box-shadow: 0 0 10px rgb(64, 48, 100)
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 40px;
+}
+h2 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+    </style>
+ <link rel="shortcut icon" href="images/ava.png">
+<title>ammyth1 art gallery by fandoms</title>
+</head>
+
+<body >
+    <a href="https://t.me/amy1art" title="telegram" style="float: right; font-size: 40px;">
+    <i class="fa-brands fa-telegram">  </i>
+     </a>
+    
+<a href="https://instagram.com/ammyth1" title="instagram" style="float: right; font-size: 40px; margin-right: 20px;">
+    <i class="fa-brands fa-square-instagram"></i>
+</a>
+
+<a href="https://send.monobank.ua/jar/5Hvq1NPyZc" title="Підтримати автора" style="float: right; font-size: 40px; margin-right: 20px; text-decoration: none;">
+    <i class="fa-solid fa-wallet"></i>
+</a>
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="border-right: 5px solid #0056b3; padding-right: 30px;">
+      <a href="index.html"><img src="images/gosite.png" style="height:100px; display:block;"></a>
+    </td>
+    <td style="padding-left: 30px;color:rgba(36, 37, 85, 0.878); font-size: 26px; font-family: 'Tenor Sans', sans-serif; text-transform: uppercase; letter-spacing: 2px; line-height: 1.5;">
+      Арт<br>Галерея<br>Фандомів
+    </td>
+  </tr>
+</table>
+<br>
+<div style="display: flex; align-items: center; background: white; padding: 5px 15px; border-radius: 25px; border: 1px solid #0056b3; max-width: 300px;">
+    <i class="fa-solid fa-magnifying-glass" style="color: #0056b3; margin-right: 10px;"></i>
+    
+    <input type="text" id="searchInput" 
+           placeholder="Шукати фандом (English)" 
+           onfocus="this.placeholder='Пишіть...'" 
+           onblur="this.placeholder='Шукати фандом (English)'"
+           oninput="searchFunction()" 
+           style="border: none; outline: none; width: 100%; font-family: 'Tenor Sans', sans-serif; font-size: 16px;">
+</div>
+<script>
+function searchFunction() {
+    let input = document.getElementById('searchInput').value.toLowerCase();
+    if (input.length === 0) return;
+
+    let headers = document.querySelectorAll('h2'); 
+    
+    for (let h of headers) {
+        if (h.innerText.toLowerCase().trim().includes(input)) {
+            h.scrollIntoView({ behavior: 'smooth', block: 'center' }); 
+            
+            // 
+            gtag('event', 'search_fandom', {
+                'event_category': 'engagement',
+                'event_label': h.innerText 
+            });
+
+            break; 
+        }
+    }
+}
+</script>
+
+<div style="display: flex; gap: 20px; margin-top: 15px; font-family: 'Tenor Sans', sans-serif; font-size: 14px; color: #333;">
+    <span><i class="fa-solid fa-layer-group"></i> Фандомів: <b>17</b></span>
+    <span><i class="fa-solid fa-image"></i> Артів на сайті: <b>26</b></span>
+    <span style="display: flex; align-items: center; gap: 5px;">
+        <i class="fa-solid fa-eye"></i> Переглядів: 
+        <script type="text/javascript" src="https://www.freecounterstat.com/cnt.php?id=..."></script>
+    </span>
+</div>
+
+
+<div style="margin: 15px 0; padding: 12px 18px; border-left: 3px solid #0056b3; background: rgba(255, 255, 255, 0.4); border-radius: 0 10px 10px 0; max-width: 750px;">
+    <p style="font-family: 'Tenor Sans', sans-serif; font-size: 15px; font-weight: normal; margin: 0; color: #242555; line-height: 1.4;">
+        Привіт! Мене звати <b>Аму</b>. Цей сайт я створила для своїх робіт. На сторінці ви можете знайти арти за фандомами, а мої власні персонажі і комішки залишаються в моєму інстаграмі та телеграмі. Ви можете перейти на них за посиланнями у правому верхньому кутку!
+    </p>
+</div>
+<div style="margin: 10px 0; padding: 10px 18px; border-left: 3px solid #b30056; background: rgba(255, 255, 255, 0.3); border-radius: 0 10px 10px 0; max-width: 750px;">
+    <p style="font-family: 'Tenor Sans', sans-serif; font-size: 14px; font-weight: normal; margin: 0; color: #403064; line-height: 1.4;">
+        <i class="fa-solid fa-circle-info" style="color: #b30056; margin-right: 5px;"></i>
+Оскільки мій стиль походить з ігор Avataria та Gacha Life, більшість робіт (персонажі, конкурси та замовлення) НЕ винесені в окремі категорії тут.
+<br>Діапазон дат 2020 - сьогодення. Виключно digital arts.
+    </p>
+
+
+           <!-- A-->
+</div>
+
+
+
+<div style="margin: 20px 0; text-align: center; font-family: 'Tenor Sans', sans-serif;">
+    <p style="color: #242555; font-size: 14px; margin-bottom: 10px;">Пошук за алфавітом:</p>
+    <div style="display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;">
+        <button onclick="scrollToLetter('A')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">A</button>
+        <button onclick="scrollToLetter('B')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">B</button>
+        <button onclick="scrollToLetter('C')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">C</button>
+        <button onclick="scrollToLetter('D')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">D</button>
+        <button onclick="scrollToLetter('G')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">G</button>
+        <button onclick="scrollToLetter('H')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">H</button>
+        <button onclick="scrollToLetter('M')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">M</button>
+        <button onclick="scrollToLetter('N')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">N</button>
+        <button onclick="scrollToLetter('S')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">S</button>
+        <button onclick="scrollToLetter('T')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">T</button>
+        <button onclick="scrollToLetter('Z')" style="background: white; border: 1px solid #0056b3; color: #0056b3; padding: 5px 12px; border-radius: 15px; cursor: pointer;">Z</button>
+    </div>
+</div>
+
+
+<script>
+function scrollToLetter(letter) {
+    let headers = document.querySelectorAll('h2'); 
+    for (let h of headers) {
+        if (h.innerText.trim().toUpperCase().startsWith(letter)) {
+            h.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            break;
+        }
+    }
+}
+</script>
+
+
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Alian stage</h2>
+<div class="gallery">
+    <img src="images/Alianstage1.jpg" alt="Alien stage Mizi" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/Alianstage2.jpg" alt="Alien stage till" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Among us</h2>
+<div class="gallery">
+    <img src="images/Amongus1.jpg" alt="Among us" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Attack on Titan AoT</h2>
+<div class="gallery">
+    <img src="images/AoT1.jpg" alt="Attack on Titan AoT" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">BTS</h2>
+<div class="gallery">
+    <img src="images/BTS1.jpg" alt="BTS Hyunjin" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Chiikawa</h2>
+<div class="gallery">
+    <img src="images/Chiikawa1.jpg" alt="Chiikawa Hachiware and Usagi" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Digital circus</h2>
+<div class="gallery">
+    <img src="images/Digitalcircus1.jpg" alt="Digital circus Pomni" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Genshin Impact</h2>
+<div class="gallery">
+    <img src="images/Genshin1.jpg" alt="Genshin Impact Sucrose" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/Genshin2.jpg" alt="Genshin Impact Furina de Fontaine" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/Genshin3.jpg" alt="Genshin Impact Lisa" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/Genshin4.jpg" alt="Genshin Impact Kaeya" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/Genshin5.jpg" alt="Genshin Impact Hu Tao" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Hatsune Miku</h2>
+<div class="gallery">
+    <img src="images/HatsuneMiku1.jpg" alt="Hatsune Miku" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Honkai Star Rail</h2>
+<div class="gallery">
+    <img src="images/Honkai1.jpg" alt="Honkai Star Rail Robin" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/Honkai2.jpg" alt="Honkai Star Rail Robin" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Monster High</h2>
+<div class="gallery">
+    <img src="images/Monster1.jpg" alt="Monster High Draculaura" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Nyan cat</h2>
+<div class="gallery">
+    <img src="images/NyanCat1.jpg" alt="Nyan cat" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Sanrio Hello Kitty Kuromi</h2>
+<div class="gallery">
+    <img src="images/SanrioKuromi.jpg" alt="Sanrio Hello Kitty Kuromi" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Teen Titans Go</h2>
+<div class="gallery">
+    <img src="images/TeenTitans1.jpg" alt="Teen Titans Go Robin Starfire" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Tik tok trends </h2>
+<div class="gallery">
+    <img src="images/tiktok1.jpg" alt="Tik tok trends" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/tiktok2.jpg" alt="Tik tok trends" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Toilet bound hanako kun TBHK </h2>
+<div class="gallery">
+    <img src="images/TBHK1.jpg" alt="Toilet bound hanako kun TBHK Hanako Yashiro" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/TBHK2.jpg" alt="Toilet bound hanako kun TBHK Hanako" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Zodiac signs</h2>
+<div class="gallery">
+    <img src="images/sighs1.jpg" alt="Zodiac signs Sagittarius" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+    <img src="images/sighs2.jpg" alt="Zodiac signs Taurus" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+</div>
+
+<h2 style="font-family: 'Tenor Sans', sans-serif; color: #0056b3; font-size: 30px;">Zenless Zone Zero </h2>
+<div class="gallery">
+    <img src="images/ZenleZoneZiro1.jpg" alt="Zenless Zone Zero Jane Doe" style="width: 100%; margin-bottom: 10px; border-radius: 8px;">
+
+</div>
+
+
+
+</body>
+
+<hr style="border: 0; height: 1px; background: #0056b3; margin-top: 50px; opacity: 0.3;">
+
+<footer style="padding: 40px 0; text-align: center; font-family: 'Tenor Sans', sans-serif;">
+    <p style="color: #242555; font-size: 18px; letter-spacing: 1px; margin-bottom: 20px;">КОНТАКТИ</p>
+    
+    <div style="display: flex; flex-direction: column; gap: 15px; align-items: center;">
+        
+        <a href="https://t.me/amy1art" style="text-decoration: none; color: #403064; font-size: 16px; transition: 0.3s;">
+            <i class="fa-brands fa-telegram"></i> Telegram: <b>@amy1art</b>
+        </a>
+
+        <a href="https://instagram.com/ammyth1" style="text-decoration: none; color: #403064; font-size: 16px; transition: 0.3s;">
+            <i class="fa-brands fa-square-instagram"></i> Instagram: <b>@ammyth1</b>
+        </a>
+
+        <a href="https://send.monobank.ua/jar/5Hvq1NPyZc" style="text-decoration: none; color: #b30056; font-size: 16px; transition: 0.3s;">
+            <i class="fa-solid fa-wallet"></i> Підтримати автора (Monobank)
+        </a>
+
+    </div>
+
+    <p style="margin-top: 40px; font-size: 12px; color: #666; opacity: 0.7;">
+        All arts belong to ammyth1. Do not use for commercial purposes
+    </p>
+</footer>
+
+
+</html>
